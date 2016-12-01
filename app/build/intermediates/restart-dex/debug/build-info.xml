@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="1"
+    format="7"
+    timestamp="50334583981343"
+    token="2672880385488136503" >
+
+    <task
+        name="javac"
+        duration="6611" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1659" />
+    <task
+        name="verifier"
+        duration="106" />
+
+    <artifact
+        location="D:\IIITD_SemV\MC\Android\Primality_Quiz_(MC_Assign1)\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="50334583981343" >
+        <artifact
+            location="D:\IIITD_SemV\MC\Android\Primality_Quiz_(MC_Assign1)\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

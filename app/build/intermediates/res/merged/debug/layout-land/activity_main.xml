@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context="in.ac.iiitd.gursimran14041.primality_quiz_mc_assign1.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/QuestionCardViewStyle"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yesText"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/tick_icon_1024px"
+            android:theme="@style/DecisionButton"/>
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noText"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/cross_icon_48px"
+            android:theme="@style/DecisionButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nextText"
+        android:layout_gravity="end"
+        android:theme="@style/NextButton"
+        android:drawableRight="@drawable/next_icon_48px" />
+
+</LinearLayout>
